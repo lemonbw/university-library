@@ -56,7 +56,8 @@
 
   /* Borrowed Book */
   .borrowed-book {
-    @apply gradient-vertical p-5 rounded-2xl xs:w-min w-full relative;
+    @apply p-5 rounded-2xl xs:w-min w-full relative;
+    background: linear-gradient(180deg, #12141d 0%, #12151f 100%);
   }
 
   .borrowed-book_cover {
@@ -249,7 +250,8 @@
   }
 
   .auth-box {
-    @apply gradient-vertical mx-auto flex max-w-xl flex-col gap-6 rounded-lg p-10;
+    @apply mx-auto flex max-w-xl flex-col gap-6 rounded-lg p-10;
+    background: linear-gradient(180deg, #12141d 0%, #12151f 100%);
   }
 
   .auth-illustration {
